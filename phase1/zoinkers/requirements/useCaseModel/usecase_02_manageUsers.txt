@@ -1,0 +1,28 @@
+/*-----------------------------------------------------------------
+System Name: Zoinkers!
+Artifact Name:manageUsers.txt
+Create Date: March 9, 2018
+Author: Matt Skeins, mskeins@kent.edu
+Version: 1.0
+------------------------------------------------------------------*/
+
+Use Case Name:
+manage users
+
+Scope:
+Zoinkers!? system
+
+Level:
+user goal
+
+Primary Actor:
+Manager
+
+the role of this use case is to give managers a way
+of looking through all of the users of the park.
+The outcomes of this usecase include editing users 
+accounts and also being able to add or remove accounts if needed.
+This will also give an organized list of all current users.
+
+
+	

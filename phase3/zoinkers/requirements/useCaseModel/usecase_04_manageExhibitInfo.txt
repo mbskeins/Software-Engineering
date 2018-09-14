@@ -1,0 +1,73 @@
+/*-----------------------------------------------------------------
+System Name: Zoinkers!
+Artifact Name: manageExhibitInfo.txt
+Create Date: March 9, 2018
+Author: Matt Skeins, mskeins@kent.edu
+Version: 1.0
+------------------------------------------------------------------*/
+
+Use Case Name:
+Order Plan
+
+Scope:
+Zoinkers!? system
+
+Level:
+user goal
+
+Primary Actor:
+Zoo Kepper/ Vet / Curator
+
+The goal of this use case is to be able to access and change the
+information pertaining to an exhibit. the outcome of this use case
+will produce either a new time schedule of the exhibit or other info
+about the animal/exhibit.
+
+Stakeholders and interests:
+	- zookeeper wants to be able to change information about exhibits
+
+preconditions:
+	zookeeper has logged in
+
+Postconditions:
+	zookeeper has made changes to the exhibit
+
+Main success scenario:
+1.) user selects "manage" from menu
+2.) user selects "change exhibit" from menu
+3.) user changes details of exhibit
+4.) user changes times of exhibits
+5.) user exits exhibit managment
+
+
+EXTENSIONS:
+1a.) Page does not load
+	1.) app must be restarted (or page reloaded)
+	2.) user continues as normal
+3a.) zookeeper enters an invalid time
+	1.) zookeeper is prompted to enter another time
+	    this is looped until time is correctly entered
+	2.) zookeeper continues as normal
+4a.) Manager enters an invalid price
+	1.) manager is prompted to enter a new price
+	    this repeats until valid price entered
+	2.) manager enters a valid price
+4b.) Manager sets a discount out of resonable bounds
+	1.) Manager is asked to varify discount with another manager
+	2.) Manager continues as normal
+6a.) user enters an invalid budget or favourbillity
+	1.) user is prompted to enter a valid input
+	    this step is looped until valid input entered
+
+Special Requirments:
+	user must be using a compatible device
+	all interactions must be processed quickily
+	Schedule generation should take at most a minute
+	Launguage will be in english
+
+Technology and Data Variations List:
+
+Frequency of Occurrence:
+	could be frequent depening on needs of the animal
+Open Issues:
+	should notification be sent if exhibit changes mid day

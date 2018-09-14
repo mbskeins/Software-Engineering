@@ -1,0 +1,28 @@
+/*-----------------------------------------------------------------
+System Name: Zoinkers!
+Artifact Name: logAnimalTimes.txt
+Create Date: March 9, 2018
+Author: Matt Skeins, mskeins@kent.edu
+Version: 1.0
+------------------------------------------------------------------*/
+
+Use Case Name:
+log animal times
+
+Scope:
+Zoinkers!? system
+
+Level:
+user goal
+
+Primary Actor:
+zoo Keeper / vet / curator
+
+The role of this use case is for zoo keepers to update care times for
+different animals and exhibits. The zoo keeper will need to log into their profile
+then access the correct exhibit. Once accessed they can edit the times the animal
+is being cared for or at the vet.
+
+
+
+	

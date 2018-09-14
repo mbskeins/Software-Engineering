@@ -1,0 +1,45 @@
+/*-----------------------------------------------------------------
+System Name: Zoinkers!
+Artifact Name: supplementary_specification.txt
+Create Date: March 3, 2018
+Author: Matt Skeins, mskeins@kent.edu
+Version: 2.0
+------------------------------------------------------------------*/
+Usabillity:
+the user is not expected to be extremely familiar with the software. The only issue is
+whether they can use a smart phone or not.
+
+Reliablillty:
+the system will be using some sort of log in feature to make sure that the customers don't
+get access to what managers / keepers can do witht he system. The system will also be logging errors
+this will help define issues that come up. During failures we may be able to use a website as a back up for the system instead
+of an app on the smartphone.
+
+Performance:
+This system will be able to support as many users as the zoo has visitors. we
+want this system to be as fast as possible with the user in mind. logging in should
+take less than one minute always. also transactions should take no longer than 30 seconds. Schedules
+should be created and displayed quickily without hindering users time.
+
+Supportablillty:
+This system may need a system admin to maintain and handle errors for the system. 
+the system admin may also extend the system by adding exhibits.
+
+Constraints:
+	Implementation:
+	-customers will have different phones varying in power
+	-different OS for phones
+
+	Interface:
+	-this system will only be in english upon release
+
+	Operations:
+	-Must be able to handle inputs and give responses quickly	
+
+	Packaging:
+	-No special Packaging
+
+	Legal
+	-Third party licensing
+
+

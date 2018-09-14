@@ -1,0 +1,30 @@
+/*-----------------------------------------------------------------
+System Name: Zoinkers!
+Artifact Name: glossary.txt
+Create Date: March 3, 2018
+Author: Matt Skeins, mskeins@kent.edu
+Version: 1.0
+------------------------------------------------------------------*/
+
+Glossary
+
+-Term-					-Definition-
+
+budget					This is a value
+					set by the user for 
+					the amount of money
+					willing to spend
+					at the zoo
+
+
+User Authorization			a way to validate different types
+					of users who log into the applications
+
+
+
+Favourbillity				orbitrary value used to indicate how
+					badly a customers wants to see a certain animal
+
+
+Logging					Generating organized reports based on the situation
+					"writing down things"

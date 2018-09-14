@@ -1,0 +1,31 @@
+/*-----------------------------------------------------------------
+System Name: Zoinkers!
+Artifact Name: manageProfile.txt
+Create Date: March 9, 2018
+Author: Matt Skeins, mskeins@kent.edu
+Version: 1.0
+------------------------------------------------------------------*/
+
+Use Case Name:
+Order Plan
+
+Scope:
+Zoinkers!? system
+
+Level:
+user goal
+
+Primary Actor:
+Customer, Manager, zookeeper
+
+the role of this is to change the settings in your profile. This could 
+mean changing the favourbillity of each exhibit in your profile or changing
+the budget in your profile. Managers will be able to access different 
+things from their profile such as managing orders, etc. Zookeepers will be 
+able to change exhibit times and settings from within their profile.
+
+
+
+
+
+	

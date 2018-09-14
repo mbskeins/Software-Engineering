@@ -1,0 +1,27 @@
+/*-----------------------------------------------------------------
+System Name: Zoinkers!
+Artifact Name: manageExhibitInfo.txt
+Create Date: March 9, 2018
+Author: Matt Skeins, mskeins@kent.edu
+Version: 1.0
+------------------------------------------------------------------*/
+
+Use Case Name:
+manage exhibit info
+
+Scope:
+Zoinkers!? system
+
+Level:
+user goal
+
+Primary Actor:
+Zoo Kepper/ Vet / Curator
+
+The goal of this use case is to be able to access and change the
+information pertaining to an exhibit. the outcome of this use case
+will produce either a new time schedule of the exhibit or other info
+about the animal/exhibit.
+
+
+	

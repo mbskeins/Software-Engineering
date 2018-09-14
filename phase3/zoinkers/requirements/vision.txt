@@ -1,0 +1,61 @@
+/*-----------------------------------------------------------------
+System Name: Zoinkers!
+Artifact Name: vision.txt
+Create Date: march 3, 2018
+Author: Matt Skeins, mskeins@kent.edu
+Version: 1.0
+------------------------------------------------------------------*/
+
+introduction:
+The goal of this project is to make an effiecient system to track times animals are being
+taken care of and then relaying proper viewing times to the customer. The new system will
+be efficient, customizable, accessible, and centralized.
+The system will be able to suggest the next target for customers to view based on 
+favourabillity of the animal and amount of funds remaining. We will be utilizing customers smart
+phones to push notifications to them.
+Customers can also buy special passes to give a discount to all zoo exhibits.
+
+positioning:
+
+ Business Opportunity
+This system would be extremely adaptable, changes to the system such as getting a new exihibit
+wouldn't be an issue to update.As the zoo gets new exhibits it wouldnt take long to add to the system also an influx of customers
+would be handled within the system so scaling will not be an issue. With the use of smart phones
+integration would be extremely easy as smart phone use is common. this system will be designed with ease of use oin mind
+for not only customers but employees as well. The only way the system would get
+an issue with new technology is if something is created to replace smartphones.
+
+ Problem Statement
+Issues that might occur within this system is overcrowding of the zoo. The system may have a hard time scheduling if everyone
+wants to see a brand new exhibit or if there is too many people not everyone will be happy with the times given.
+
+ Product Position Statement
+A key feature of this system is to schedule customers based on favourabillity and help them organize their
+time during their visit. Also, managers will be able to change prices for exhibits on the fly without resetting the system.
+The system also supports infinitely scaling amount of exhibits.
+
+ alternatives
+ There are no direct alternatives to the system being developed
+but direct competition is with other zoos such as columbus/cleveland zoo.
+
+Stakeholder Descriptions:
+The demographics for this system is users of all ages. this includes guests to the zoo and also
+employees. 
+	guest: pre built plan that gives them best viewing times according to favorbillity
+	manager: wants to be able to quickily and effienctly change prices and track other things around the zoo
+	keeper/vet/curator: maintain a consistant schedule for the animals and update schedules fast and easily
+	sales anylst: wants to be able to analyze different sales report and also wants a fast log in process
+	sys admin: wants the system to be easily maintainable to be able to handle errors fast and efficiently
+
+Product Overview:
+	The zoinkers system will ultimately be an app on users phones or could be on a computer as an app for employees 
+	of the zoo. The system that employees use will be held in general offices where employees frequent or points of interest
+	identified before installation.	
+
+Summary of System Features:
+- Change exhibit price (for managers only)
+- customer schedule creation, based on favourabilillty and ranked on a hapiness scale
+- system logs, all interactions and errors
+- animal search (by name)
+- transaction handeling, third party software payment authorization services
+- account management

@@ -1,0 +1,34 @@
+/*-----------------------------------------------------------------
+System Name: Zoinkers!
+Artifact Name: business_rules.txt
+Create Date: March 3, 2018
+Author: Matt Skeins, mskeins@kent.edu
+Version: 1.0
+------------------------------------------------------------------*/
+
+Busniness rules:
+
+Revision History
+Version			Date				Description						Author
+inception draft		March 9th, 2018			First draft will change during elaboration		Matt Skeins
+
+
+ID			Rule				Changabillity						Source
+RULE1			Signiture required for		Must change with current trends				POlicy of most credit companies
+			credit payments			must support digital pay and signitures
+
+
+
+
+
+RULE2			Sales tax, see government	High, taxes change anually				Law
+			statutes
+
+
+
+RULE3			Credit refunds must be		Low							Credit Auth Policies
+			repaid to user's account
+			as credit	
+
+
+

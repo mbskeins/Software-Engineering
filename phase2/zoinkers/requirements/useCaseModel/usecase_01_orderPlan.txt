@@ -1,0 +1,77 @@
+/*-----------------------------------------------------------------
+System Name: Zoinkers!
+Artifact Name: orderplan.txt
+Create Date: March 9, 2018
+Author: Matt Skeins, mskeins@kent.edu
+Version: 1.0
+------------------------------------------------------------------*/
+
+Use Case Name:
+Order Plan
+
+Scope:
+Zoinkers!? system
+
+Level:
+user goal
+
+Primary Actor:
+Customer
+
+Stakeholders and interests:
+-customer: the customer wants to be able to set favourabillity of what animal they would like to see
+	    to see most that day. Also the customer wants a schedule created in a timely manor.
+
+preconditions:
+	Customer has application downloaded
+
+Postconditions:
+	customer has a schedule generated with the highest happiness value based on their budget and favourabillity
+
+Main success scenario:
+1.) customer opens application on mobile device
+2.) customer enters credentials 
+3.) User selects generate day plan
+4.) user sets budget
+5.) user sets favourabiliity
+6.) user is returned a plan
+
+
+EXTENSIONS:
+1a.) customer is unable to open the application
+	1.) customer restarts application
+	2.) customer chooses to submit a bug report
+	3.) customer continues as normal
+2a.) credentials are enetered incorrectly
+	1.) user is directed to try again
+	    this repeats untill user is logged in correctlly
+	2.) user is asked to make an account 
+		2a.) customer is directed to create account screen
+	3.) customer is authenticated
+3a.) Page fails to load
+	1.) app must be restarted 
+	2.) User is asked to make a bug report
+4a.) user sets an invalid value for budget
+	1.) user is prompted to enter a new budget
+	    this repeats until correct budget entered
+	2.)customer eneters a valid budget
+5a.) user sets an invalid value for favourabillity
+	1.) user is asked to set a correct value for favourabillity
+	2.) user continues as normal
+
+Special Requirments:
+	user must be using a compatible device
+	all interactions must be processed quickily
+	Schedule generation should take at most a minute
+	Launguage will be in english
+
+
+Technology and data variatoins list:
+	4a.) Must support credit input via digital input of credit card
+
+Frequency of occurence:
+	occurs as often as customers request ( can be very often )
+
+open issues:
+	-what are the credit laws for applications?
+	-are there other ways of payment?	

@@ -1,0 +1,75 @@
+/*-----------------------------------------------------------------
+System Name: Zoinkers!
+Artifact Name:manageUsers.txt
+Create Date: March 9, 2018
+Author: Matt Skeins, mskeins@kent.edu
+Version: 1.0
+------------------------------------------------------------------*/
+
+Use Case Name:
+manage users
+
+Scope:
+Zoinkers!? system
+
+Level:
+user goal
+
+Primary Actor:
+Manager
+
+the role of this use case is to give managers a way
+of looking through all of the users of the park.
+The outcomes of this usecase include editing users 
+accounts and also being able to add or remove accounts if needed.
+This will also give an organized list of all current users.
+
+Stakeholders and interests:
+-manager: the manager wants to be able to view all users inside of the park. the manager would also
+	  like to be able to add or remove accounts as neccesary.
+
+preconditions:
+	manager has logged in
+
+Postconditions:
+	Manager was successfully able to view all user data from the park and change account statuses
+
+Main success scenario:
+1.) Manager selects "Manage users" from the menu
+2.) Manager selects to get a detailed list of all users
+3.) Manager chooses to select an account to change
+4.) Manager chooses to add or remove an account
+5.) Manager logs out
+
+
+
+EXTENSIONS:
+
+2a.) No users in the system
+	1.) Manager is notified there is no users yet
+	2.) continue as normal
+3a.) search result returns nothing
+	1.) manager is asked to search again
+	    this loops until finished
+	2.) manager continues
+4a.) Manager removes wrong account
+	1.) Manager is prompted to restore account
+	2.) Manager continues
+
+
+Special Requirments:
+	user must be using a compatible device
+	all interactions must be processed quickily
+	List of users should be generated quickly
+	Launguage will be in english
+
+
+Technology and data variatoins list:
+	1.) must not be on mobile device ( or chooses to be )
+Frequency of occurence:
+	occurs as often as managers request ( can be very often )
+
+open issues:
+	-are there other things the manager should be able to do with accounts?
+		
+	
